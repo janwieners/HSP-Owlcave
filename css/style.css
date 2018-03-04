@@ -1,0 +1,111 @@
+.page-header {
+    font-size: 13px;
+    line-height: 1.82em;
+    background-color: dimgray;
+    border-bottom: 0;
+    padding-left: 1.09em;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.region-content {
+    border-right: 1px solid dimgray;
+    border-bottom: 1px solid dimgray;
+    border-left: 1px solid dimgray;
+    padding: 15px;
+}
+
+/* topnavigation */
+#topnavigation {
+    margin-top: -25px;
+}
+
+#topnavigation li {
+    float: left;
+    padding: 0 8px 0 8px;
+}
+
+#topnavigation li a {
+    padding: 2px;
+    color: #000;
+}
+
+#topnavigation .nav > li > a:hover, #topnavigation .nav > li > a:focus {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Menus */
+ul.sf-menu a, ul.sf-menu span.nolink {
+    padding: 5px 5px 5px 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#superfish-main li {
+    margin-bottom: 10px;
+}
+
+#main-menu-link-content57f6b361-4713-48f1-af2b-54026d7e6208,
+#main-menu-link-content57f6b361-4713-48f1-af2b-54026d7e6208 li {
+    background-color: #E5C300;
+}
+
+#main-menu-link-content57f6b361-4713-48f1-af2b-54026d7e6208 li {
+    margin-left: 5px;
+}
+
+#main-menu-link-content149767fa-688d-4e51-b5f7-f31349bdb696,
+#main-menu-link-content149767fa-688d-4e51-b5f7-f31349bdb696 li {
+    background-color: #FF8E16;
+}
+
+#main-menu-link-content4aa6ca2a-cd40-457e-848f-4c75e75c7e46,
+#main-menu-link-content4aa6ca2a-cd40-457e-848f-4c75e75c7e46 li {
+    background-color: #B22222;
+}
+
+#main-menu-link-content5dc41ee0-d0f0-4702-9e86-f6bb29d6b491,
+#main-menu-link-content5dc41ee0-d0f0-4702-9e86-f6bb29d6b491 li {
+    background-color: #C34F7C;
+}
+
+#main-menu-link-content77e069e2-1509-4ccf-b157-0d394c08af18,
+#main-menu-link-content77e069e2-1509-4ccf-b157-0d394c08af18 li {
+    background-color: #7F5C92;
+}
+
+#main-menu-link-content3e6ba735-6183-4eec-9a1e-a39b3849c5ed,
+#main-menu-link-content3e6ba735-6183-4eec-9a1e-a39b3849c5ed li {
+    background-color: #4747A3;
+}
+
+#main-menu-link-content937a33c4-2eb1-46d5-90a2-416913de37da,
+#main-menu-link-content937a33c4-2eb1-46d5-90a2-416913de37da li {
+    background-color: #0071AF;
+}
+
+#main-menu-link-contenta6d42bd4-7581-4fab-bbbb-f57e6b1bd1f3,
+#main-menu-link-contenta6d42bd4-7581-4fab-bbbb-f57e6b1bd1f3 li {
+    background-color: #008888;
+}
+
+#main-menu-link-content8f3f5f11-3a0b-43ed-9e96-8a74128481e4,
+#main-menu-link-content8f3f5f11-3a0b-43ed-9e96-8a74128481e4 li {
+    background-color: #008000;
+}
+
+#main-menu-link-content7fb75a70-f666-4dfd-88b1-863d99ad9972,
+#main-menu-link-content7fb75a70-f666-4dfd-88b1-863d99ad9972 li {
+    background-color: #A5BD27;
+}
+
+/* main content */
+#maincontent {
+    margin-top: 15px;
+}
