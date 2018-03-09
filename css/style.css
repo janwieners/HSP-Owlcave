@@ -48,7 +48,7 @@ ul.sf-menu a, ul.sf-menu span.nolink {
 }
 
 #superfish-main li {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 #main-menu-link-content57f6b361-4713-48f1-af2b-54026d7e6208,
@@ -123,7 +123,7 @@ ul.sf-menu a, ul.sf-menu span.nolink {
 
 /* Courses */
 .view-kurstermine table {
-    border-spacing: 5px;
+    border-spacing: 4px;
     border-collapse: separate;
     font-size: 13px;
     margin-left: -5px;
@@ -146,6 +146,15 @@ ul.sf-menu a, ul.sf-menu span.nolink {
 
 .view-kurstermine a {
     color: #333 !important;
+}
+
+.view-kurstermine .table > thead > tr > th,
+.view-kurstermine .table > tbody > tr > th,
+.view-kurstermine .table > tfoot > tr > th,
+.view-kurstermine .table > thead > tr > td,
+.view-kurstermine .table > tbody > tr > td,
+.view-kurstermine .table > tfoot > tr > td {
+    padding: 2px 0 2px 10px !important;
 }
 
 .view-kurstermine table tr {
