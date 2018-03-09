@@ -122,6 +122,47 @@ ul.sf-menu a, ul.sf-menu span.nolink {
 }
 
 /* Courses */
+.view-kurstermine table {
+    border-spacing: 5px;
+    border-collapse: separate;
+    font-size: 13px;
+    margin-left: -5px;
+}
+
+.view-kurstermine table > thead > tr > th,
+.view-kurstermine table > tbody > tr > th,
+.view-kurstermine table > tfoot > tr > th,
+.view-kurstermine table > thead > tr > td,
+.view-kurstermine table > tbody > tr > td,
+.view-kurstermine table > tfoot > tr > td {
+    border-top: 0 !important;
+}
+
+.view-kurstermine th {
+    color: #fff;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.view-kurstermine a {
+    color: #333 !important;
+}
+
+.view-kurstermine table tr {
+    padding: 2px 0 2px 10px !important;
+}
+
+.view-kurstermine table > tbody > tr > td {
+    padding: 2px 0 2px 10px;
+}
+
+.kurstyp-3 .view-kurstermine th {
+    background-color: #b22222;
+}
+
+.kurstyp-3 .view-kurstermine table > tbody > tr > td {
+    background-color: #EBACAC !important;
+}
 
 /* Wassersport */
 /* Individualsport */
@@ -131,27 +172,27 @@ ul.sf-menu a, ul.sf-menu span.nolink {
 .kurstyp-32 h1.page-header,
 .kurstyp-33 h1.page-header,
 .kurstyp-35 h1.page-header {
-    border-bottom: 1px solid #0a507c;
-}
-
-/* Fitness */
-.kurstyp-3 h1.page-header {
-    border-bottom: 1px solid #c34f7c;
-}
-
-/* Campus Gummersbach */
-.kurstyp-7 h1.page-header {
-    border-bottom: 1px solid #a5be27;
-}
-
-/* Gesundheit */
-.kurstyp-4 h1.page-header {
-    border-bottom: 1px solid #7f5c92;
+    background-color: #0a507c;
 }
 
 /* Kampfsport */
 .kurstyp-1 h1.page-header {
-    border-bottom: 1px solid #b22222;
+    background-color: #c34f7c;
+}
+
+/* Campus Gummersbach */
+.kurstyp-7 h1.page-header {
+    background-color: #a5be27;
+}
+
+/* Gesundheit */
+.kurstyp-4 h1.page-header {
+    background-color: #7f5c92;
+}
+
+/* Fitness */
+.kurstyp-3 h1.page-header {
+    background-color: #b22222;
 }
 
 /* Ballsport */
