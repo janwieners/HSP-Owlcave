@@ -6,8 +6,8 @@
     padding-left: 1.09em;
     font-weight: bold;
     color: #FFFFFF;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
     margin-bottom: 0;
 }
 
@@ -108,4 +108,97 @@ ul.sf-menu a, ul.sf-menu span.nolink {
 /* main content */
 #maincontent {
     margin-top: 15px;
+}
+
+/* Right Sidebar */
+.region-sidebar-second .block-title {
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.82em;
+    background-color: dimgray;
+    border-bottom: 0;
+    padding-left: 1.09em;
+    margin-top: 0;
+}
+
+/* Courses */
+
+/* Wassersport */
+/* Individualsport */
+/* Natursport */
+/* Wintersport */
+.kurstyp-34 h1.page-header,
+.kurstyp-32 h1.page-header,
+.kurstyp-33 h1.page-header,
+.kurstyp-35 h1.page-header {
+    border-bottom: 1px solid #0a507c;
+}
+
+/* Fitness */
+.kurstyp-3 h1.page-header {
+    border-bottom: 1px solid #c34f7c;
+}
+
+/* Campus Gummersbach */
+.kurstyp-7 h1.page-header {
+    border-bottom: 1px solid #a5be27;
+}
+
+/* Gesundheit */
+.kurstyp-4 h1.page-header {
+    border-bottom: 1px solid #7f5c92;
+}
+
+/* Kampfsport */
+.kurstyp-1 h1.page-header {
+    border-bottom: 1px solid #b22222;
+}
+
+/* Ballsport */
+.kurstyp-36 h1.page-header {
+    background-color: #E5C300;
+}
+
+/* Sportspiele mit Frisbee */
+/* Sportspiele mit Schläger */
+.kurstyp-29 h1.page-header,
+.kurstyp-31 h1.page-header,
+.kurstyp-30 h1.page-header {
+    border-bottom: 1px solid #fe8e16;
+}
+
+.kurstyp-29 #coursedates th {
+    background-color: #fe8e16;
+}
+
+/* Tanzen */
+.kurstyp-6 h1.page-header {
+    border-bottom: 1px solid #008787;
+}
+
+/* Coursedates */
+#coursedates {
+    margin-top: 0;
+}
+
+.table-responsive {
+    background-color: inherit;
+}
+
+.table-responsive tr,
+.table-responsive tr td {
+    background-color: transparent !important;
+}
+
+#coursedates .table > thead > tr > th {
+    border: none;
+}
+
+#coursedates .table > thead > tr > th,
+#coursedates .table > tbody > tr > th,
+#coursedates .table > tfoot > tr > th,
+#coursedates .table > thead > tr > td,
+#coursedates .table > tbody > tr > td,
+#coursedates .table > tfoot > tr > td {
+    border: none;
 }

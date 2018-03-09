@@ -1,8 +1,42 @@
 <?php
-
 /**
  * @file
  * Bootstrap sub-theme.
  *
  * Place your custom PHP code in this file.
  */
+
+use Drupal\taxonomy\Entity\Term;
+use Drupal\Component\Utility\Html;
+
+function Owlcave_preprocess_html(&$variables) {
+
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+
+    $nodeType = $node->getType();
+
+    if ($nodeType == "sportkurs") {
+
+        $tid = $node->get('field_sportkategorien')->target_id;
+
+        if($tid > 0) {
+            $term_object = Term::load($tid);
+            $variables['attributes']['class'][] = 'terms--' . Html::getClass($term_object->get('name')->value);
+            $variables['attributes']['class'][] = 'kurstyp-' . $tid;
+        }
+    }
+
+    /**
+     * Get the node id from the node object.
+     * If greater than zero, add the node id to body classes
+    */
+    /*
+    $nid = $node->get('nid')->value;
+    if($nid > 0) {
+      $variables['attributes']['class'][] = 'kurstyp-' . $tid;
+    }
+    */
+
+  }
+
+}
