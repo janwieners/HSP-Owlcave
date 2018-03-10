@@ -95,6 +95,8 @@ ul.sf-menu a, ul.sf-menu span.nolink {
 
 #superfish-main li.sf-depth-2 {
     margin-left: 5px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #fff;
 }
 
 #main-menu-link-content57f6b361-4713-48f1-af2b-54026d7e6208,
