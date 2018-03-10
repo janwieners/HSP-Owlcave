@@ -36,7 +36,28 @@
 #block-owlcave-sprachumschalter-2 ul li {
     background-color: #ccc;
     margin: 1px 0 1px 0;
-    padding: 1px 0 1px 14px;
+    padding: 3px 0 3px 50px;
+}
+
+/* Deutsch */
+#block-owlcave-sprachumschalter-2 ul li:nth-child(1) {
+    background-image: url(/themes/Owlcave/img/german_highlight.png);
+    background-repeat: no-repeat;
+    background-position: 8px 0;
+}
+
+/* English */
+#block-owlcave-sprachumschalter-2 ul li:nth-child(2) {
+    background-image: url(/themes/Owlcave/img/english_highlight.png);
+    background-repeat: no-repeat;
+    background-position: 8px 0;
+}
+
+/* Espanol */
+#block-owlcave-sprachumschalter-2 ul li:nth-child(3) {
+    background-image: url(/themes/Owlcave/img/spain_highlight.png);
+    background-repeat: no-repeat;
+    background-position: 8px 0;
 }
 
 /* topnavigation */
