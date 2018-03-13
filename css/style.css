@@ -358,3 +358,27 @@ ul.sf-menu a, ul.sf-menu span.nolink {
 #coursedates .table > tfoot > tr > td {
     border: none;
 }
+
+/* Right navbar search form */
+#block-owlcave-search {
+    border: 1px solid dimgray;
+}
+
+#block-owlcave-search h2.visually-hidden {
+    position: inherit !important;
+    clip: unset !important;
+    height: auto !important;
+    width: auto !important;
+
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.82em;
+    background-color: dimgray;
+    border-bottom: 0;
+    padding-left: 12px;
+    margin-top: 0;
+}
+
+#block-owlcave-search #search-block-form {
+    margin: 15px;
+}
