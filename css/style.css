@@ -155,7 +155,8 @@ ul.sf-menu a, ul.sf-menu span.nolink {
 }
 
 /* Right Sidebar */
-.region-sidebar-second .block-title {
+.region-sidebar-second .block-title,
+#frontpage-newsbox h2 {
     font-size: 13px;
     color: #fff;
     line-height: 1.82em;
@@ -165,7 +166,29 @@ ul.sf-menu a, ul.sf-menu span.nolink {
     margin-top: 0;
 }
 
-/* Courses */
+#frontpage-newsbox h2 {
+    margin-bottom: 0;
+}
+
+#frontpage-newsbox .views-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#frontpage-newsbox .views-row:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#frontpage-newsbox .views-field-title {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+    /* Courses */
 .view-kurstermine table {
     border-spacing: 4px;
     border-collapse: separate;

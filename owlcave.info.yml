@@ -18,6 +18,8 @@ regions:
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+  frontpage_news: 'Frontpage News'
+  frontpage_events: 'Frontpage Events'
 
 libraries:
   - 'owlcave/global-styling'
