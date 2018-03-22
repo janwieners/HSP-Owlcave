@@ -80,21 +80,61 @@
             {# Content #}
             <section class="col-sm-7">
 
-                <section id="frontpage-newsbox">
+                {% if page.frontpage_news %}
 
-                    <h2>News</h2>
+                    <section id="frontpage-newsbox">
 
-                    <div class="region-content">
+                        <h2>News</h2>
 
-                        {% if page.frontpage_news %}
+                        <div class="region-content">
+
                             {% block frontpage_news %}
                                 {{ page.frontpage_news }}
                             {% endblock %}
-                        {% endif %}
 
-                    </div>
+                        </div>
 
-                </section>
+                    </section>
+
+                {% endif %}
+
+
+                {% if page.frontpage_events %}
+
+                    <section id="frontpage-eventsbox">
+
+                        <h2>Events</h2>
+
+                        <div class="region-content">
+
+                            {% block frontpage_events %}
+                                {{ page.frontpage_events }}
+                            {% endblock %}
+
+                        </div>
+
+                    </section>
+
+                {% endif %}
+
+
+                {% if page.frontpage_sportstravels %}
+
+                    <section id="frontpage-sportstravelsbox">
+
+                        <h2>Sportreisen</h2>
+
+                        <div class="region-content">
+
+                            {% block frontpage_sportstravels %}
+                                {{ page.frontpage_sportstravels }}
+                            {% endblock %}
+
+                        </div>
+
+                    </section>
+                {% endif %}
+
 
             </section>
 

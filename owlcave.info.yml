@@ -20,6 +20,7 @@ regions:
   page_bottom: 'Page bottom'
   frontpage_news: 'Frontpage News'
   frontpage_events: 'Frontpage Events'
+  frontpage_sportstravels: 'Frontpage Sportreisen'
 
 libraries:
   - 'owlcave/global-styling'
