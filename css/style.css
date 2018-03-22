@@ -44,6 +44,7 @@
     background-image: url(/themes/Owlcave/img/german_highlight.png);
     background-repeat: no-repeat;
     background-position: 8px 0;
+    opacity: 0.5;
 }
 
 /* English */
@@ -51,6 +52,11 @@
     background-image: url(/themes/Owlcave/img/english_highlight.png);
     background-repeat: no-repeat;
     background-position: 8px 0;
+    opacity: 0.5;
+}
+
+#block-owlcave-sprachumschalter-2 ul li.is-active {
+    opacity: 1.0;
 }
 
 /* topnavigation */
