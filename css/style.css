@@ -153,7 +153,6 @@ ul.sf-menu a, ul.sf-menu span.nolink {
     margin-top: 15px;
 }
 
-/* Right Sidebar */
 .region-sidebar-second .block-title,
 #frontpage-newsbox h2,
 #frontpage-eventsbox h2,
@@ -164,6 +163,26 @@ ul.sf-menu a, ul.sf-menu span.nolink {
     background-color: dimgray;
     border-bottom: 0;
     padding-left: 1.09em;
+    margin-top: 0;
+}
+
+#frontpage-eventsbox,
+#frontpage-sportstravelsbox {
+    margin-top: 15px;
+}
+
+#frontpage-eventsbox .region-content,
+#frontpage-sportstravelsbox .region-content {
+    padding: 0;
+}
+
+#frontpage-eventsbox .panel-group,
+#frontpage-sportstravelsbox .panel-group {
+    margin-bottom: 0;
+}
+
+#frontpage-eventsbox .panel-group .panel + .panel,
+#frontpage-sportstravelsbox .panel-group .panel + .panel {
     margin-top: 0;
 }
 
